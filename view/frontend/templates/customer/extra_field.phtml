@@ -1,0 +1,32 @@
+<div class="field company_name">
+   <label class="label" for="company_name">
+       <span><?= $block->escapeHtml(__('Company Name')) ?></span>
+   </label>
+   <div class="control">
+       <input type="text" name="company_name" id="company_name" value="" title="<?= $block->escapeHtmlAttr(__('Company Name')) ?>" class="input-text">
+   </div>
+</div>
+<div class="field phone_number">
+   <label class="label" for="phone_number">
+       <span><?= $block->escapeHtml(__('Phone number')) ?></span>
+   </label>
+   <div class="control">
+       <input type="text" name="phone_number" id="phone_number" value="" title="<?= $block->escapeHtmlAttr(__('Phone number')) ?>" class="input-text">
+   </div>
+</div>
+<div class="field customer_address">
+   <label class="label" for="customer_address">
+       <span><?= $block->escapeHtml(__('Address')) ?></span>
+   </label>
+   <div class="control">
+    <textarea value="" title="<?= $block->escapeHtmlAttr(__('Address')) ?>" class="input-text" name="customer_address"></textarea>
+   </div>
+</div>
+<div class="field user_type">
+   <label class="label" for="user_type">
+       <span><?= $block->escapeHtml(__('User Type')) ?></span>
+   </label>
+   <div class="control">
+       <input type="text" name="user_type" id="user_type" value="" title="<?= $block->escapeHtmlAttr(__('User Type')) ?>" class="input-text">
+   </div>
+</div>
